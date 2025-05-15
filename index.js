@@ -33,7 +33,7 @@ function handleDecrement(minus){
         //first part in the if statement
         
     }else{
-        parentDiv.children[1].value = parseInt(parentDiv.children[1].value) + 1;
+        parentDiv.children[1].value = parseInt(parentDiv.children[1].value) - 1;
         const id = parentDiv.id
         const newVal = parentDiv.children[1].value
         const splitKey = id.split("-")
