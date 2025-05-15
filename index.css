@@ -1,0 +1,96 @@
+html, body {
+    margin: 0;
+    font-family: 'Karla', sans-serif;
+}
+h1,h2, h3{
+    text-align:center;
+    color: #029637;
+    margin: 0;
+}
+h1, h2{
+    text-transform: uppercase;
+}
+h1{
+    font-size: 36px;
+}
+
+h2 {
+    font-size: 30px;
+}
+h3{
+    font-size:26px;
+}
+#inner-header{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 15px;
+    padding: 0;
+    border-bottom: 1px solid  #eaeaea;
+}
+
+#boss-img{
+    height: 220px;
+    width: 380px
+
+}
+#vs-img{
+    height: 100px;
+    align-self: start;
+    pointer-events: none;
+    user-select: none; 
+    
+}
+#team-faceoff{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 15px  0 0;
+}
+.team{
+    margin-top: 40px;
+}
+.cross-sell{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    
+   
+
+}
+.cs-name{
+    margin-right: 2.5px;
+    font-size: 20px;
+}
+
+.btn{
+    color:white;
+    background: linear-gradient(45deg, #026937, #81bd00);
+    display:inline-block;
+    height: 100%;
+    margin: 0 2.5px;
+    opacity: 1;
+    text-align: center;
+    border: none;
+    cursor:pointer;
+    border-radius: 6px;
+    padding: 12px 12px;
+    
+}
+.btn:hover{
+    background: #026937
+}
+.qtyinput{
+    text-align: center;
+    font-weight: 700;
+    border: 1px solid  #eaeaea;
+    border-radius: 6px;
+    width: 40px;
+    height: 40px;
+    font-size: 18px;
+
+}
+i{
+    pointer-events: none;
+}
+
